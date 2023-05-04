@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="index.css" rel="stylesheet">
+    <link href="https://font s.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>INDEX</title>
+</head>
+
+<body>
+
+    <!-- navbar - start -->
+    <div class="bg-white">
+        <header class="border-b">
+            <div class="mx-auto flex max-w-screen-2xl items-center justify-between px-4 md:px-8">
+                <!-- logo - start -->
+                <a class="text-black-900 inline-flex items-center gap-2.5 text-2xl font-bold md:text-3xl"
+                    aria-label="logo">
+                    <svg width="95" height="94" viewBox="0 0 95 94" class="h-auto w-6 text-black-500"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg"></svg>
+                    <img src="./Images/logo.jpg" width="60px" height="50px">VotingBuddy
+                </a>
+                <!-- logo - end -->
+
+                <!-- nav - start -->
+                <nav class="hidden gap-12 lg:flex 2xl:ml-16">
+                    <a href="index.html"
+                        class="text-lg font-semibold text-black-600 transition duration-100 hover:text-orange-500 active:text-black-700">Home</a>
+                    <a href=".\about.php"
+                        class="text-lg font-semibold text-black-600 transition duration-100 hover:text-orange-500 active:text-black-700">About
+                        Us</a>
+                    <a href="#view"
+                        class="text-lg font-semibold text-black-600 transition duration-100 hover:text-orange-500 active:text-black-700">View</a>
+                    <a href="#help"
+                        class="text-lg font-semibold text-black-600 transition duration-100 hover:text-orange-500 active:text-black-700">Help</a>
+                </nav>
+                <!-- nav - end -->
+
+                <!-- buttons - start -->
+                <div class="flex divide-x border-r sm:border-l">
+                    <a href="Login.php"
+                        class="hidden h-12 w-12 flex-col items-center justify-center gap-1.5 transition duration-100 hover:bg-green-100 active:bg-gray-200 sm:flex sm:h-20 sm:w-20 md:h-24 md:w-24">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-people-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+                        </svg>
+                        <span class="hidden text-xs font-semibold text-black-500 sm:block">Voters</span>
+                    </a>
+
+                    <a href="NomineeRegister.php"
+                        class="flex h-12 w-12 flex-col items-center justify-center gap-1.5 transition duration-100 hover:bg-green-100 active:bg-gray-200 sm:h-20 sm:w-20 md:h-24 md:w-24">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-person-fill" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                        </svg>
+                        <span class="hidden text-xs font-semibold text-black-500 sm:block">Candidate</span>
+                    </a>
+
+                    <a href="admin.php"
+                        class="flex h-12 w-12 flex-col items-center justify-center gap-1.5 transition duration-100 hover:bg-green-100 active:bg-gray-200 sm:h-20 sm:w-20 md:h-24 md:w-24">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-person-fill-lock" viewBox="0 0 16 16">
+                            <path
+                                d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h5v-1a1.9 1.9 0 0 1 .01-.2 4.49 4.49 0 0 1 1.534-3.693C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Zm7 0a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2Zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1Z" />
+                        </svg>
+                        <span class="hidden text-xs font-semibold text-black-500 sm:block">Administrator</span>
+                    </a>
+                </div>
+                <!-- buttons - end -->
+            </div>
+        </header>
+    </div>
+    <!-- Navbar - end -->
+
+    <!-- hero-section - start -->
+
+    <section class="mx-auto max-w-screen-2xl px-4 md:px-8 bg-black">
+        <div class="mb-8 flex flex-wrap justify-between md:mb-0">
+            <div class="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pt-48 lg:pb-24">
+                <h1 class="text-yellow-500 mb-4 text-4xl font-bold sm:text-5xl md:mb-8 md:text-6xl">More
+                    about<br />our website</h1>
+                <p class="max-w-md leading-relaxed text-gray-100 xl:text-lg font-semibold">Every citizen of this
+                    country should be guaranteed that their vote matters, that their vote is counted,that in the
+                    voting booth, their vote has as much weight as that of any CEO or any president</p> <br>
+                <a href="about.html">
+                    <button
+                        class="bg-gray-100 hover:bg-yellow-400 text-black-700 font-semibold hover:text-black-500 py-2 px-4 border border-black-500 hover:border-transparent rounded href:about.html ">About
+                        us</button>
+                </a>
+            </div>
+
+            <div class="mb-12 flex w-full md:mb-16 lg:w-2/3">
+                <div
+                    class="relative top-12 left-12 z-10 -ml-12 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:top-16 md:left-16 lg:ml-0">
+                    <img src="./Images/hero-1.png" loading="lazy" alt="Photo1"
+                        class="h-full w-full object-cover object-center" />
+                </div>
+
+                <div class="overflow-hidden rounded-lg bg-gray-100 shadow-lg">
+                    <img src="./Images/hero-2.jpg" loading="lazy" alt="Photo2"
+                        class="h-full w-full object-cover object-center" />
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <div class="third" id="view">
+        <br> <br><br> <br><br> <br><br> <br>
+        <div class="card">
+            <br><br>
+            <i class="fas fa-poll-h fa-10x" style="color: black; "></i>
+            <h1>Click below to see the result</h1><br><br>
+            <p><a href="Result_Index.php">VIEW RESULT</a></p>
+        </div>
+        <br><br>
+    </div>
+
+    <section class="text-gray-600 body-font bg-black" id="help">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+            <h2 class="font-bold text-center title-font text-yellow-500 mb-4 text-4xl sm:text-5xl md:mb-8 md:text-4xl">
+                Steps to be followed</h2>
+            <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/ mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                    <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div
+                    class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-500 text-black relative z-10 title-font font-medium text-sm">
+                    1</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                    <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                        <h2 class="font-medium title-font text-gray-100 mb-1 text-xl">REGISTRATION</h2>
+                        <p class="leading-relaxed text-gray-100">First have to register yourself as a voter. This
+                            typically involves
+                            filling out a registration form with
+                            your personal information such as your name, mobile no, email address, date of birth and
+                            password.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex relative pb-20 sm:items-center md:w-2/ mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                    <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div
+                    class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-500 text-black relative z-10 title-font font-medium text-sm">
+                    2</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                    <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                        <h2 class="font-medium title-font text-gray-100 mb-1 text-xl">LOGIN</h2>
+                        <p class="leading-relaxed text-gray-100">After registering, the next step is to login to your
+                            account on the
+                            voting website.
+                            This typically involves entering your email address, date of birth and a password that you
+                            have entered in the registration process.
+                            Once you have logged in, you will be directed to the voting page where you can cast your
+                            vote.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex relative pb-20 sm:items-center md:w-2/ mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                    <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div
+                    class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-500 text-black relative z-10 title-font font-medium text-sm">
+                    3</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                </div>
+                <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                    <h2 class="font-medium title-font text-gray-100 mb-1 text-xl">VOTE</h2>
+                    <p class="leading-relaxed text-gray-100">Once you have logged in, you will be directed to the voting
+                        page where
+                        you can cast your vote.
+                        Typically, you will be presented with a list of candidates you can vote for anyone candidate in
+                        that list.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ - start -->
+
+    <div class="bg-black py-6 sm:py-8 lg:py-12 mx-auto max-w-screen-2xl px-4 md:px-8">
+        <div class="mx-auto max-w-screen-xl px-4 md:px-8 border-t"><br>
+            <!-- text - start -->
+            <div class="mb-10 md:mb-16">
+                <h2 class="mb-4 text-center text-2xl font-bold text-yellow-500 md:mb-6 lg:text-3xl">Frequently asked
+                    questions</h2>
+
+                <p class="mx-auto max-w-screen-md text-center text-yellow-500 md:text-lg">This is a section of some
+                    simple
+                    filler text, also known as placeholder text. It shares some characteristics of a real written text
+                    but is random or otherwise generated.</p>
+            </div>
+            <!-- text - end -->
+
+            <div class="grid gap-4 sm:grid-cols-2 md:gap-8">
+                <!-- question - start -->
+                <div class="rounded-lg bg-gray-400 p-5">
+                    <div class="mb-4 flex items-center justify-between gap-4 border-b pb-4">
+                        <h3 class="font-semibold text-black-500 sm:text-lg md:text-xl">How does the product work?</h3>
+
+                        <span
+                            class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gray-300 text-black-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span>
+                    </div>
+
+                    <p class="text-white-500">This is a section of some simple filler text, also known as placeholder
+                        text. It shares some characteristics of a real written text but is random or otherwise
+                        generated.</p>
+                </div>
+                <!-- question - end -->
+
+                <!-- question - start -->
+                <div class="rounded-lg bg-gray-400 p-5">
+                    <div class="mb-4 flex items-center justify-between gap-4 border-b pb-4">
+                        <h3 class="font-semibold text-black-500 sm:text-lg md:text-xl">What are the features?</h3>
+
+                        <span
+                            class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gray-300 text-black-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span>
+                    </div>
+
+                    <p class="text-black-500">This is a section of some simple filler text, also known as placeholder
+                        text. It shares some characteristics of a real written text but is random or otherwise
+                        generated.</p>
+                </div>
+                <!-- question - end -->
+
+                <!-- question - start -->
+                <div class="rounded-lg bg-gray-400 p-5">
+                    <div class="mb-4 flex items-center justify-between gap-4 border-b pb-4">
+                        <h3 class="font-semibold text-black-500 sm:text-lg md:text-xl">What about integrations?</h3>
+
+                        <span
+                            class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gray-300 text-black-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span>
+                    </div>
+
+                    <p class="text-black-500">This is a section of some simple filler text, also known as placeholder
+                        text. It shares some characteristics of a real written text but is random or otherwise
+                        generated.</p>
+                </div>
+                <!-- question - end -->
+
+                <!-- question - start -->
+                <div class="rounded-lg bg-gray-400 p-5">
+                    <div class="mb-4 flex items-center justify-between gap-4 border-b pb-4">
+                        <h3 class="font-semibold text-black-500 sm:text-lg md:text-xl">Is support available?</h3>
+
+                        <span
+                            class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gray-300 text-black-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span>
+                    </div>
+                    <p class="text-black-500">This is a section of some simple filler text, also known as placeholder
+                        text. It shares some characteristics of a real written text but is random or otherwise
+                        generated.</p>
+                </div>
+                <!-- question - end -->
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ - end -->
+
+    <!-- hero-section - end -->
+
+    <!-- footer - start -->
+    <div class="bg-black">
+        <footer class="mx-auto max-w-screen-2xl px-4 md:px-8 bg-black">
+            <div class="mb-16 grid grid-cols-2 gap-12 border-t pt-10 md:grid-cols-4 lg:grid-cols-6 lg:gap-8 lg:pt-12">
+                <div class="col-span-full lg:col-span-2">
+
+                    <!-- logo - start -->
+                    <a class="text-yellow-500 inline-flex items-center gap-4 text-2xl font-bold md:text-3xl"
+                        aria-label="logo">
+                        <img src="./Images/logo.jpg" width="60px" height="50px">Voting Buddy
+                    </a>
+                    <!-- logo - end -->
+
+                    <br><br>
+                    <p class="text-gray-100">Stay Connected</p>
+                    <br>
+                    <!-- social - start -->
+                    <div class="flex gap-5">
+
+                        <a href="https://instagram.com/votingbuddy?igshid=YmMyMTA2M2Y=" target="_blank"
+                            class="text-black-400 transition duration-100 active:text-gray-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="currentColor"
+                                style="color: #c13584" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+
+                        <a href="#" target="_blank" class="text-gray-400 transition duration-100 active:text-gray-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="currentColor"
+                                style="color: #1da1f2" viewBox="0 0 24 24">
+                                <path
+                                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                            </svg>
+                        </a>
+
+                        <a href="#" target="_blank" class="text-gray-400 transition duration-100 active:text-gray-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="currentColor"
+                                style="color: #1877f2" viewBox="0 0 24 24">
+                                <path
+                                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                            </svg>
+                        </a>
+
+                        <a href="#" target="_blank" class="text-gray-400 transition duration-100 active:text-gray-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="currentColor"
+                                style="color: #0077b5" viewBox="0 0 24 24">
+                                <path
+                                    d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- social - end -->
+                </div>
+
+                <!-- nav - start -->
+                <div>
+                    <div class="mb-4 font-bold uppercase tracking-widest text-gray-100 ">MY ACCOUNT</div>
+
+                    <nav class="flex flex-col gap-4">
+                        <div>
+                            <a href="#"
+                                class="text-gray-100 transition duration-100 hover:text-orange-500 active:text-indigo-600">About
+                                Us</a>
+                        </div>
+
+                        <div>
+                            <a href="#"
+                                class="text-gray-100  transition duration-100 hover:text-orange-500 active:text-indigo-600">Login</a>
+                        </div>
+
+                        <div>
+                            <a href="#"
+                                class="text-gray-100 transition duration-100 hover:text-orange-500 active:text-indigo-600">Support</a>
+                        </div>
+                    </nav>
+                </div>
+                <!-- nav - end -->
+
+                <!-- nav - start -->
+                <div>
+                    <div class="mb-4 font-bold uppercase tracking-widest text-gray-100">Legal</div>
+
+                    <nav class="flex flex-col gap-4">
+                        <div>
+                            <a href="#"
+                                class="text-gray-100  transition duration-100 hover:text-orange-500 active:text-indigo-600">Terms
+                                of Service</a>
+                        </div>
+
+                        <div>
+                            <a href="#"
+                                class="text-gray-100  transition duration-100 hover:text-orange-500 active:text-indigo-600">Privacy
+                                Policy</a>
+                        </div>
+
+                        <div>
+                            <a href="#"
+                                class="text-gray-100 transition duration-100 hover:text-orange-500 active:text-indigo-600">Cookie
+                                settings</a>
+                        </div>
+                    </nav>
+                </div>
+                <!-- nav - end -->
+                <!-- nav - start -->
+                <div>
+                    <div class="mb-4 font-bold uppercase tracking-widest text-gray-100  font-bold">ABOUT</div>
+                    <nav class="flex flex-col gap-4">
+                        <div>
+                            <a href="#"
+                                class="text-gray-100  transition duration-100 hover:text-orange-500 active:text-indigo-600">Team</a>
+                        </div>
+
+                        <div>
+                            <a href="#"
+                                class="text-gray-100  transition duration-100 hover:text-orange-500 active:text-indigo-600">Contact</a>
+                        </div>
+                    </nav>
+                </div>
+                <!-- nav - end -->
+
+            </div>
+            <div class="border-t py-8 text-center text-sm text-yellow-500">© VotingBuddy. All rights reserved.</div>
+        </footer>
+    </div>
+    <!-- footer - end -->
+
+</body>
+
+</html>
